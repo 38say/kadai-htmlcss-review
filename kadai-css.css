@@ -1,0 +1,41 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 14px;
+    font-family: "Hiragino Sans";
+}
+
+
+header {
+    background-color: #ffcccc;
+    width: 1000px;
+    margin:0 auto;
+
+}
+#wrapper {
+    width:1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main {
+    display: inline-block;
+    background-color:#ccffcc;
+    width:700px;
+}
+#menu{
+
+    display: inline-block;
+    background-color:#ccccff;
+        width:300px;
+}
+
+footer{
+    background-color: #ffccff;
+        width: 1000px;
+        margin:0 auto;
+
+}
